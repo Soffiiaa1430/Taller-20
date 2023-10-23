@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+#container-target{
+    position: relative;
+    border: solid 1px #00000027;
+    margin: 0 auto;
+    height: 500px;
+    width: 310px;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#center{
+    margin: 100px 20px 20px 450px;
+}
+#headear-target{
+    background-color: black;
+    height: 30%;
+    
+}
+
+
+#target-text{
+    padding: 20px 10px;
+    height: 50%;
+    text-align: center;
+}
+
+
+#footer-target{
+    background-color: black;
+    height: 20%;
+}
+
+#img-target{
+    left: 33%;
+    top: 10%;
+    position: absolute;
+    border-radius: 180px;
+    width: 120px;
+    height: 120px;
+}
+
+#footer-target img{
+    padding: 9% 8% 4% 11%;
+}
+
+#input-color{
+    width: 100px;
+    margin: 10px auto;
+}
+
+#color{
+    width: 100px;
+}
+
+#container-main{
+    width: 100%;
+}
+
+#container-dateOfBirht{
+    margin: 120px 20px 20px 200px;
+    height: 389px;
+    width: 250px;
+    background: rgb(196, 184, 184);
+    border: solid 1px #000000;
+    text-align: center;
+    
+}
+
+#container-dateOfBirht h2{
+    color: #000000;
+    margin: 30px;
+
+}
+#dateOfBirht{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+} 
